@@ -1,12 +1,10 @@
-# Publify
+#  supplify
+
 
 **The Ruby on Rails publishing software formerly known as Typo**
 
-[![Build status](https://github.com/publify/publify/actions/workflows/ruby.yml/badge.svg)](https://github.com/publify/publify/actions/workflows/ruby.yml)
-[![Code Climate](https://codeclimate.com/github/publify/publify.svg)](https://codeclimate.com/github/publify/publify)
-[![Reviewed by Hound](https://img.shields.io/badge/Reviewed_by-Hound-8E64B0.svg)](https://houndci.com)
 
-## What's Publify?
+## What's  supplify?
 
 Publify is a simple but full featured web publishing software. It's built
 around a blogging engine and a small message system connected to Twitter.
@@ -31,9 +29,9 @@ project alive.
 
 ## Demo site
 
-You can [give Publify a try](https://demo-publify.herokuapp.com/)
+You can [give supplify a try]
 
-The login / password [to the admin](https://demo-publify.herokuapp.com/admin)
+The login / password
 are:
 
 - Administrator: admin / admin123
@@ -46,17 +44,12 @@ The demo is reset every hour.
 ### Download
 
 You can download the latest
-Publify [stable release](https://github.com/publify/publify/releases/latest).
-
-If you want to run the master branch, you can [clone the Publify
-repository](https://github.com/publify/publify.git). However, random things may
-be broken there at any time, so tread carefully!
 
 **Running the master branch in production is not recommended!**
 
-### Install Publify locally
+### Install supplify locally
 
-To install Publify you need the following:
+To install supplify you need the following:
 
 - CRuby (MRI) 2.5, 2.6 or 2.7
 - Ruby on Rails 5.2.x
@@ -65,7 +58,7 @@ To install Publify you need the following:
   [the execjs readme](https://github.com/sstephenson/execjs#readme) for details.
 - ImageMagick (used by `mini_magick`).
 
-1.  Unzip Publify archive
+1.  Unzip supplify archive
 2.  Rename database.yml.yourEngine as database.yml
 3.  Edit database.yml to add your database name, login and password.
 
@@ -80,16 +73,16 @@ $ rails server
 
 You can now launch you browser and access 127.0.0.1:3000.
 
-### Install Publify on a server
+### Install supplify on a server
 
 You can use your preferred installation method (e.g., Capistrano) to install
-Publify on a server. You will also need to set up the environment so it
+supplify on a server. You will also need to set up the environment so it
 contains at least `SECRET_KEY_BASE`. Your web server may allow you to set this,
 or you can consider using a tool like `dotenv`.
 
-### Install Publify on Heroku
+### Install supplify on Heroku
 
-In order to install Publify on Heroku, you’ll need to do some minor tweaks.
+In order to install supplify on Heroku, you’ll need to do some minor tweaks.
 
 First of all, you need to set up Amazon S3 storage to be able to upload files on
 your blog. Set Heroku config vars.
@@ -162,12 +155,6 @@ heroku restart
 
 ## Resources
 
-- [Sidebar Plugins](https://github.com/publify/publify/wiki/Sidebar-plugins)
-- [In page Plugins](https://github.com/publify/publify/wiki/In-Page-Plugins)
-- [**Report a bug**](https://github.com/publify/publify/issues)
-- [**Frequently Asked Questions**](https://github.com/publify/publify/wiki/frequently-asked-questions)
-- [Publify on Twitter](https://twitter.com/getpublify)
-- IRC: \#publify on irc.freenode.net
 
 ## Maintainers
 
@@ -206,10 +193,9 @@ blog: kevin.sb.org
 **Seth Hall**
 
 And [many more cool people who’ve one way or another contributed to
-Publify](https://github.com/publify/publify/graphs/contributors).
 
 **Original Author: Tobias Luetke**
 blog: http://blog.leetsoft.com/
 
 Enjoy,
-The Publify team
+
